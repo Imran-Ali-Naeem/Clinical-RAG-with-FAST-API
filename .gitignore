@@ -1,0 +1,33 @@
+# Virtual environment
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment variables (contains API keys)
+.env
+backend/.env
+
+# Large artifact files — too big for GitHub
+backend/data/faiss_index/
+backend/data/bm25_index.pkl
+backend/data/chunks.pkl
+backend/data/df_clean.csv
+
+# Model cache
+*.bin
+*.safetensors
+
+# Results (optional — include if you want)
+# backend/results/
+
+# Node modules
+frontend/node_modules/
+
+# Build output
+frontend/dist/
+
+# OS files
+.DS_Store
+Thumbs.db

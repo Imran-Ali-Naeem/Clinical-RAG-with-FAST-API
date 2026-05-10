@@ -1,0 +1,11 @@
+query,relevant_category,corpus_relevant_count,k,bm25_precision,bm25_recall,bm25_f1,dense_precision,dense_recall,dense_f1,hybrid_precision,hybrid_recall,hybrid_f1,hybrid_rerank_precision,hybrid_rerank_recall,hybrid_rerank_f1
+chest pain elevated troponin myocardial infarction,Acute Coronary Syndrome,318,5,0.2,0.0031,0.0062,0.8,0.0126,0.0248,0.8,0.0126,0.0248,1.0,0.0157,0.031
+polyuria polydipsia type 2 diabetes insulin,Diabetes,62,5,0.2,0.0161,0.0299,0.6,0.0484,0.0896,0.6,0.0484,0.0896,0.6,0.0484,0.0896
+shortness of breath heart failure ejection fraction,Heart Failure,274,5,0.8,0.0146,0.0287,0.4,0.0073,0.0143,0.4,0.0073,0.0143,0.4,0.0073,0.0143
+seizure epilepsy anticonvulsant medication,Epilepsy,46,5,0.4,0.0435,0.0784,1.0,0.1087,0.1961,1.0,0.1087,0.1961,1.0,0.1087,0.1961
+fever cough pneumonia bacterial infection,Pneumonia,97,5,0.8,0.0412,0.0784,1.0,0.0515,0.098,1.0,0.0515,0.098,0.8,0.0412,0.0784
+stroke hemiplegia cerebral infarction,Stroke,158,5,0.6,0.019,0.0368,1.0,0.0316,0.0613,1.0,0.0316,0.0613,1.0,0.0316,0.0613
+wheezing bronchospasm COPD exacerbation,COPD,70,5,0.2,0.0143,0.0267,0.2,0.0143,0.0267,0.2,0.0143,0.0267,0.0,0.0,0.0
+headache migraine aura photophobia,Migraine,28,5,0.2,0.0357,0.0606,0.2,0.0357,0.0606,0.2,0.0357,0.0606,0.2,0.0357,0.0606
+hypertension blood pressure antihypertensive,Hypertension,100,5,0.0,0.0,0.0,0.2,0.01,0.019,0.2,0.01,0.019,0.0,0.0,0.0
+multiple sclerosis demyelination MRI lesions,Multiple Sclerosis,139,5,0.6,0.0216,0.0417,1.0,0.036,0.0694,1.0,0.036,0.0694,1.0,0.036,0.0694
