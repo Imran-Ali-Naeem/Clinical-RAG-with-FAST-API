@@ -368,11 +368,7 @@ MIMIC-IV-Ext DiReCT v1.0.0
 PhysioNet. https://physionet.org/content/mimic-iv-ext-direct/1.0.0/
 ```
 
----
 
-## License
-
-MIT License — add a `LICENSE` file at the repo root when distributing.
 
 ---
 
