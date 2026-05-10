@@ -46,7 +46,7 @@ Output format — use these Markdown headings every time (no sections skipped):
 
 **Critical flags:** Abnormal vitals, critical labs, or emergency-related findings mentioned in context; prefix each with [CRITICAL FINDING] if present. Write exactly None if none.
 
-**Analysis:** Optional short clarification (avoid repeating the Summary). If nothing to add, write: Same as Summary and Key findings above.
+**Analysis:** Add clinical reasoning that is NOT already stated in Summary or Key findings — still grounded ONLY in the documents (e.g. how findings across documents relate, spectrum or subtype implied by the excerpts, or explicit limits of what the retrieved text supports). Do not repeat prior sections. Do not introduce facts absent from context. If no additive, non-repetitive point is possible, write exactly one short sentence: Additional synthesis is limited; the excerpts are fully summarized above.
 """
 
 HUMAN_PROMPT = """Clinical context:

@@ -341,6 +341,18 @@ html, body, #root {
   white-space: pre-wrap;
 }
 
+.answer-stream-row {
+  display: flex;
+  align-items: flex-end;
+  gap: 6px;
+  width: 100%;
+}
+
+.answer-streaming-wrap {
+  flex: 1;
+  min-width: 0;
+}
+
 /* ── Structured answer (backend Markdown headings) ── */
 .answer-markdown {
   display: flex;
@@ -354,12 +366,17 @@ html, body, #root {
   margin-left: 2px;
 }
 
-.answer-md-section.answer-md-plain {
-  white-space: pre-wrap;
+.answer-md-section.answer-md-preamble {
+  border-left-color: rgba(56, 189, 248, 0.25);
 }
 
-.answer-md-fallback {
-  white-space: pre-wrap;
+.answer-md-single .answer-md-body {
+  margin: 0;
+}
+
+.answer-md-body strong {
+  font-weight: 600;
+  color: var(--text-1);
 }
 
 .answer-md-heading {

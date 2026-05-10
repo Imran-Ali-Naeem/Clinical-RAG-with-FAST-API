@@ -76,10 +76,12 @@ export function AnswerPanel({
           </div>
           <div className="answer-text">
             {streaming ? (
-              <>
-                <span className="answer-streaming">{answer}</span>
+              <div className="answer-stream-row">
+                <div className="answer-streaming-wrap">
+                  <StructuredAnswer text={answer} />
+                </div>
                 <span className="cursor-blink" aria-hidden="true" />
-              </>
+              </div>
             ) : (
               <StructuredAnswer text={answer} />
             )}
